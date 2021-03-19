@@ -11,6 +11,7 @@
 		6664F59026041ADF00514A00 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 6664F58F26041ADF00514A00 /* Assets */; };
 		6664F5A52604250900514A00 /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6664F5A42604250900514A00 /* ViagemDAO.swift */; };
 		66D19E2B2604D2250036C47A /* PacotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D19E2A2604D2250036C47A /* PacotesViewController.swift */; };
+		66D19E2F2604E3DC0036C47A /* PacoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D19E2E2604E3DC0036C47A /* PacoteCollectionViewCell.swift */; };
 		66FD02F22603DE55000019A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD02F12603DE55000019A4 /* AppDelegate.swift */; };
 		66FD02F42603DE55000019A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD02F32603DE55000019A4 /* SceneDelegate.swift */; };
 		66FD02F62603DE55000019A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD02F52603DE55000019A4 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		6664F58F26041ADF00514A00 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		6664F5A42604250900514A00 /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
 		66D19E2A2604D2250036C47A /* PacotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViewController.swift; sourceTree = "<group>"; };
+		66D19E2E2604E3DC0036C47A /* PacoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteCollectionViewCell.swift; sourceTree = "<group>"; };
 		66FD02EE2603DE55000019A4 /* alura-travel-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alura-travel-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FD02F12603DE55000019A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66FD02F32603DE55000019A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		66D19E292604D20A0036C47A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				66D19E2E2604E3DC0036C47A /* PacoteCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				66FD03132603FE18000019A4 /* Viagem.swift in Sources */,
 				6664F58326040FF600514A00 /* TableViewCell.swift in Sources */,
 				6664F5A52604250900514A00 /* ViagemDAO.swift in Sources */,
+				66D19E2F2604E3DC0036C47A /* PacoteCollectionViewCell.swift in Sources */,
 				66FD02F22603DE55000019A4 /* AppDelegate.swift in Sources */,
 				66D19E2B2604D2250036C47A /* PacotesViewController.swift in Sources */,
 				66FD02F42603DE55000019A4 /* SceneDelegate.swift in Sources */,
