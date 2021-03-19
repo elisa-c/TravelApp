@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PacotesViewController: UIViewController, UICollectionViewDataSource {
+class PacotesViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     // MARK: - IBOutlet
     
@@ -16,7 +16,7 @@ class PacotesViewController: UIViewController, UICollectionViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         colecaoPacotesViagem.dataSource = self
-
+        colecaoPacotesViagem.delegate = self
     }
     
     //
@@ -45,6 +45,13 @@ class PacotesViewController: UIViewController, UICollectionViewDataSource {
         
         return celulaPacote
     }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let widthCell = collectionView.bounds.width / 2
+        return CGSize(width: widthCell - 15, height: 160)
+    }
+    
     
     // MARK: - Navigation
 
